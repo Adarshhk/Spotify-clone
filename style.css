@@ -1,0 +1,260 @@
+body{
+    background: black;
+    font-family: Helvetica, sans-serif
+}
+button{
+    background: none;
+    color: white;
+    font-weight: bold;
+    border:none;
+}
+button:hover{
+    background: none;
+    color: white;
+    font-weight: bold;
+    border:none;
+    transform: scale(1.03);
+}
+img{
+    width: 130px;
+    margin-top: 15px;
+    margin-left: 10%;
+
+}
+::-webkit-scrollbar{
+    overflow: overlay;
+    background-color:#121212;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.26);
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(255, 255, 255, 0.616);
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.home-search{
+    border :none;
+    background-color: #121212;
+    width: 22vw;
+    height: 18vh;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    margin-bottom: 7px;
+
+}
+.right{
+    background: linear-gradient(to top, #121212 70% , #212121);
+    border-radius: 8px;
+    margin-left: 7px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 89vh;
+}
+#home{
+    margin-left: 4%;
+    padding: 8px;
+
+}
+#search{
+    margin-left: 4%;
+    margin-top: 5px;
+    padding: 8px;
+
+}
+#create-Lib{
+    margin-top: 15px;
+    margin-left: 18px;
+}
+.library{
+    border :none;
+    background-color: #121212;
+    width: 22vw;
+    height: 70vh;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.scroll{
+
+    background-color: #121212;
+    height: 40vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.LIB{
+    padding-bottom: 10px;
+}
+#playList{
+    background-color: #212121;
+    margin: 8px;
+    height: 25vh;
+    border-radius: 6px;
+    color: white;
+}
+#create-playlist, #browse-podcast{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 19px;
+    padding: 7px 14px;
+    font-size: 13px;
+    margin-left: 7%;
+    margin-top: 5px;
+}
+.left{
+    position: sticky;
+}
+#browse{
+    background-color: #2c2828;
+    margin: 8px;
+    height: 25vh;
+    border-radius: 6px;
+    color: white;
+    margin-bottom: 10px;
+}
+#cookies{
+    margin-top: 20px;
+    font-size: x-small;
+    color: rgba(255, 255, 255, 0.507);
+    margin-left:25px;
+    font-weight: 100;
+}
+#lang{
+    margin-left: 19px;
+    border: 1px solid rgba(255, 255, 255, 0.692);
+    margin-top: 30px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+#back{
+    margin-top: 15px;
+    margin-left: 3%;
+    margin-right: 1%;
+    font-size: large;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+#forward{
+    margin-top: 15px;
+    font-size: large;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+#signup{
+    margin-left: 66%;
+    color: rgb(148, 148, 148);
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+#login{
+
+    color: black;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 32px;
+    background-color: white;
+}
+.nav-bar{
+    position:fixed;
+    width: 77%;
+    background-color: rgba(0, 0, 0, 0.349);
+    padding-bottom: 5px;
+    align-content: center;
+}
+#catagory{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 70%;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.one{
+    align-content: center;
+    
+}
+#showall{
+    color: rgb(148, 148, 148);
+    font-size:12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.song{
+    margin-top: 20px;
+    min-height: 10vh;
+    display:flex;
+    flex-basis: auto;
+    align-content: center;
+    background-color: #21212100;
+}
+#cover{
+    background-color: #181818;
+    border-radius: 5px;
+    min-height: 10px;
+    width: 18%;
+    margin-left: 20px;
+    text-align: left;
+}
+#cover:hover{
+    background-color: #212121;
+    border-radius: 5px;
+    min-height: 10px;
+    width: 18%;
+    margin-left: 20px;
+    text-align: left;
+}
+#song-name{
+    color: white;
+    font-weight: bold;
+    margin-left: 10%;
+    font-size: 15px;
+}
+#song-des{
+    color: rgb(148, 148, 148);
+    margin-left: 10%;
+    font-size: small;
+    font-weight: 500;
+    margin-right: 10%;
+}
+#bottom{
+    margin-top: 4px;
+    background: linear-gradient(to right,rgba(255, 0, 234, 0.521) 40%,rgb(73, 73, 255));
+    height: 42px;
+    display: flex;
+    color: white;
+}
+#ad-signup{
+    color: black;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 32px;
+    margin-top: 4px;
+    background-color: white;
+}
